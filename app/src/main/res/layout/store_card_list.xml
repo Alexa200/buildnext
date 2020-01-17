@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#00FFFFFF"
+    android:elevation="0dp"
+    android:padding="11dp"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true"
+    android:layout_margin="10dp"
+    app:cardElevation="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Store Name"
+            android:textColor="@color/md_black_1000"
+            />
+
+        <TextView
+            android:id="@+id/store_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Store Address"
+            android:textColor="@color/md_black_1000"
+            />
+        <TextView
+            android:id="@+id/store_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Store Description"
+            android:textColor="@color/md_black_1000"
+            />
+        <TextView
+            android:id="@+id/store_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Store Phone"
+            android:textColor="@color/md_black_1000"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
