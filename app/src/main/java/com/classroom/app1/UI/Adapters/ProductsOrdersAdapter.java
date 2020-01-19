@@ -70,7 +70,7 @@ public class ProductsOrdersAdapter extends RecyclerView.Adapter<ProductsOrdersAd
 
             this.mProduct = products;
             produitNom.setText(mProduct.getNom());
-            produitPrice.setText(""+mProduct.getPrice()+"MAD");
+            produitPrice.setText(""+mProduct.getPrice()+"PKR");
 
 
             Glide

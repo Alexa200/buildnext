@@ -73,7 +73,7 @@ public class CartProductAdapter extends RecyclerView.Adapter<CartProductAdapter.
 
             this.mProduct = products;
             produitNom.setText(mProduct.getNom());
-            produitPrice.setText(mProduct.getPrice().toString()+"MAD");
+            produitPrice.setText(mProduct.getPrice().toString()+"PKR");
 
 
             Glide
