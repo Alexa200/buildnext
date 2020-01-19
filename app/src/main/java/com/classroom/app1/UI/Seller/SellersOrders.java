@@ -33,7 +33,7 @@ public class SellersOrders extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Mes Commandes");
+        getSupportActionBar().setTitle("My orders");
 
         viewPager = findViewById(R.id.viewpager);
         setupViewPager(viewPager);
@@ -46,9 +46,9 @@ public class SellersOrders extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new InProcessSeller(), "En expédition");
-        adapter.addFragment(new CanceledOrders(), "Annulées");
-        adapter.addFragment(new InShippedSeller(), "Livrés");
+        adapter.addFragment(new InProcessSeller(), "In expedition");
+        adapter.addFragment(new CanceledOrders(), "Forfeited");
+        adapter.addFragment(new InShippedSeller(), "Books");
         viewPager.setAdapter(adapter);
     }
 
