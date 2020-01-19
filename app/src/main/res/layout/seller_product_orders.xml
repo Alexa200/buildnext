@@ -73,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:background="@drawable/check_btn"
-                    android:text="Livrer"
+                    android:text="Deliver"
                     android:textColor="#1fd352" />
 
                 <Button
@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:background="@drawable/cancel_btn"
-                    android:text="Annuler"
+                    android:text="To cancel"
                     android:textColor="#f44542" />
             </LinearLayout>
 

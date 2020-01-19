@@ -14,13 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".UI.ContactUs"></activity>
         <activity
             android:name=".UI.Seller.SellerHome"
             android:label="@string/title_activity_seller_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".UI.Seller.SellersOrders">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UI.Seller.SellersOrders"></activity>
         <activity android:name=".UI.Seller.AddProduct" />
         <activity android:name=".UI.UsersOrders" />
         <activity android:name=".UI.Cart" />
@@ -41,8 +40,7 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".UI.ProductsListActivity"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme"></activity>
         <activity
             android:name=".UI.HomeActivity"
             android:theme="@style/AppTheme" />

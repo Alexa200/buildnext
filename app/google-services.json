@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "524460118068",
-    "firebase_url": "https://project-171f6.firebaseio.com",
-    "project_id": "project-171f6",
-    "storage_bucket": "project-171f6.appspot.com"
+    "project_number": "500309592160",
+    "firebase_url": "https://buildnext-ab7f9.firebaseio.com",
+    "project_id": "buildnext-ab7f9",
+    "storage_bucket": "buildnext-ab7f9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:524460118068:android:e1b9fe7302d35a0aa3ba61",
+        "mobilesdk_app_id": "1:500309592160:android:bacaeede1ab666478a5b05",
         "android_client_info": {
           "package_name": "com.classroom.app1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "524460118068-ga5d1bhaqn6e7diit5hjtdd4fmoiu5ea.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.classroom.app1",
-            "certificate_hash": "cbb2fe34f037e7509fb807012e77338e227b7e4b"
-          }
-        },
-        {
-          "client_id": "524460118068-gqffmlapcoe5bjsqmi20vrrak4k65061.apps.googleusercontent.com",
+          "client_id": "500309592160-kk7ji54ikhusqql124efu9bhkgql4446.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDXJf9-04FJX6ppJjydTuzFsOYuAl4FPuY"
+          "current_key": "AIzaSyC73W-QoYn-_8PSuH8Ii24IRfHeMBXSQIY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "524460118068-gqffmlapcoe5bjsqmi20vrrak4k65061.apps.googleusercontent.com",
+              "client_id": "500309592160-kk7ji54ikhusqql124efu9bhkgql4446.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
