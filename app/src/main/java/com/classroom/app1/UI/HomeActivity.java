@@ -88,11 +88,13 @@ public class HomeActivity extends AppCompatActivity {
                         startActivity(profil);
                         break;
                     case R.id.builder_button:
-                        Intent builder = new Intent(getApplicationContext(), Builder.class);
-                        startActivity(builder);
+                        Toast.makeText(getApplicationContext(),"Feature Coming Soon! Message from UZAIR",Toast.LENGTH_SHORT).show();
+//                        Intent builder = new Intent(getApplicationContext(), Builder.class);
+//                        startActivity(builder);
                     case R.id.store_button:
-                        Intent store = new Intent(getApplicationContext(), Store.class);
-                        startActivity(store);
+                        Toast.makeText(getApplicationContext(),"Feature Coming Soon! Message from UZAIR",Toast.LENGTH_SHORT).show();
+//                        Intent store = new Intent(getApplicationContext(), Store.class);
+//                        startActivity(store);
                 }
                 return true;
             }
