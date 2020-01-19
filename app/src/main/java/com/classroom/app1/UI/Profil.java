@@ -260,6 +260,8 @@ public class Profil extends BaseActivity implements View.OnClickListener {
             case R.id.orders:
                 startActivity(new Intent(this, UsersOrders.class));
                 return true;
+            case R.id.contact_us:
+                startActivity(new Intent(this, ContactUs.class));
             default:
                 return super.onOptionsItemSelected(item);
 
