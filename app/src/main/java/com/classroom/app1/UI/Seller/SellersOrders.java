@@ -46,9 +46,9 @@ public class SellersOrders extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new InProcessSeller(), "In expedition");
-        adapter.addFragment(new CanceledOrders(), "Forfeited");
-        adapter.addFragment(new InShippedSeller(), "Books");
+        adapter.addFragment(new InProcessSeller(), "In process");
+        adapter.addFragment(new CanceledOrders(), "canceled");
+        adapter.addFragment(new InShippedSeller(), "Shipped");
         viewPager.setAdapter(adapter);
     }
 
